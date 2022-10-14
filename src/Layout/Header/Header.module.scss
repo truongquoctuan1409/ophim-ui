@@ -1,0 +1,17 @@
+.wrapper {
+    height: var(--header-height);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    box-shadow: var(--box-shadow-color);
+    z-index: 10;
+}
+.inner {
+    height: 100%;
+    width: var(--width-default);
+    max-width: 100%;
+}

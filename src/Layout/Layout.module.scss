@@ -1,0 +1,10 @@
+.wrapper {
+    width: var(--width-default);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: calc(var(--header-height) + 40px);
+    height: 1000px;
+}
